@@ -68,8 +68,12 @@ npm install
 Create a `.env` file in the Backend directory with the following variables:
 ```env
 MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
 OPENAI_API_KEY=your_openai_api_key
+JWT_SECRET=your_jwt_secret
+ACCESS_TOKEN_SECRET=your_access_token_secret
+REFRESH_TOKEN_SECRET=your_refresh_token_secret
+ACCESS_TOKEN_EXPIRY=15m
+REFRESH_TOKEN_EXPIRY=7d
 ```
 
 ### Running the Application
