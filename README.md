@@ -67,7 +67,7 @@ npm install
 4. Environment Setup
 Create a `.env` file in the Backend directory with the following variables:
 ```env
-MONGODB_URI=your_mongodb_uri
+MONGODB_URL=your_mongodb_url
 OPENAI_API_KEY=your_openai_api_key
 JWT_SECRET=your_jwt_secret
 ACCESS_TOKEN_SECRET=your_access_token_secret
