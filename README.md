@@ -68,7 +68,7 @@ npm install
 Create a `.env` file in the Backend directory with the following variables:
 ```env
 MONGODB_URL=your_mongodb_url
-OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY=your_gemini_api_key
 JWT_SECRET=your_jwt_secret
 ACCESS_TOKEN_SECRET=your_access_token_secret
 REFRESH_TOKEN_SECRET=your_refresh_token_secret
